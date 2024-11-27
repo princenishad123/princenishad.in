@@ -1,0 +1,28 @@
+.mainSection::-webkit-scrollbar {
+  width: 4px;
+  background-color: transparent;
+}
+.mainSection::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.mainSection::-webkit-scrollbar-thumb {
+  background-color: rgb(79, 78, 78);
+  border-radius: 5px;
+}
+
+.customShadow {
+  box-shadow: 0px 0px 220px 150px rgba(169, 5, 224, 0.258);
+  scale: 2;
+}
+.customShadow2 {
+  box-shadow: 0px 0px 220px 150px rgba(6, 233, 222, 0.107);
+  scale: 2;
+}
+
+.menusBox {
+  background-color: rgba(0, 0, 0, 0.253);
+  backdrop-filter: blur(9px);
+}
+.linksButtons {
+  background-color: rgba(255, 255, 255, 0.247);
+}
