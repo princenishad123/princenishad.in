@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./layout.css";
+import "./Layout.css";
 import { GoHome } from "react-icons/go";
 import { LuUserCircle2 } from "react-icons/lu";
 import { CiGrid31, CiUser } from "react-icons/ci";
