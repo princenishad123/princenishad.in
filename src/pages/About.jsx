@@ -6,10 +6,10 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaInstagram } from "react-icons/fa";
-import myImage from "../../assets/my-image.webp";
-import project1 from "../../assets/project1.webp";
+import myImage from "../assets/my-image.webp";
+import project1 from "../assets/project1.webp";
 import { Link, NavLink } from "react-router-dom";
-import ScheduleCall from "../../Components/ScheduleCall";
+import ScheduleCall from "../Components/ScheduleCall";
 const About = () => {
   return (
     <div className="w-full h-auto xl:flex relative xl:gap-24 xl:mx-6">

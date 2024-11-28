@@ -1,8 +1,8 @@
 import React from "react";
-import Project from "../../Components/Project";
-import myImage from "../../assets/my-image.webp";
+import Project from "../Components/Project";
+import myImage from "../assets/my-image.webp";
 import { RiArrowRightSLine } from "react-icons/ri";
-import project2 from "../../assets/project1.webp";
+import project2 from "../assets/project1.webp";
 
 const Work = () => {
   return (

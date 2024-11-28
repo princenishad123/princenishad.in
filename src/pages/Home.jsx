@@ -1,10 +1,8 @@
 import React from "react";
-import myImage from "../../assets/my-image.webp";
+import myImage from "../assets/my-image.webp";
 import { RiArrowRightSLine } from "react-icons/ri";
-import "./Home.css";
-import LocalTime from "../../Components/LocalTime";
-import Project from "../../Components/Project";
-import Subscribe from "../../Components/Subscribe";
+import Project from "../Components/Project";
+import Subscribe from "../Components/Subscribe";
 import { useNavigate } from "react-router-dom";
 const Home = () => {
   const navigate = useNavigate();

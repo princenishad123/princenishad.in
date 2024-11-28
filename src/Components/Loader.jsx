@@ -1,5 +1,5 @@
 import React from "react";
-import "./Loader.css";
+
 const Loader = () => {
   return (
     <div className="w-full min-h-[85vh] content-center">

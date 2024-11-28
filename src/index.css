@@ -1,3 +1,102 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .mainSection::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+  }
+  .mainSection::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .mainSection::-webkit-scrollbar-thumb {
+    background-color: rgb(79, 78, 78);
+    border-radius: 5px;
+  }
+
+  .customShadow {
+    box-shadow: 0px 0px 220px 150px rgba(169, 5, 224, 0.258);
+    scale: 2;
+  }
+  .customShadow2 {
+    box-shadow: 0px 0px 220px 150px rgba(6, 233, 222, 0.107);
+    scale: 2;
+  }
+
+  .menusBox {
+    background-color: rgba(0, 0, 0, 0.253);
+    backdrop-filter: blur(9px);
+  }
+  .linksButtons {
+    background-color: rgba(255, 255, 255, 0.247);
+  }
+  /* CSS */
+  .button-55 {
+    align-self: center;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: 0.4rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: flex;
+  }
+
+  .button-55:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+
+  .button-55:focus {
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+  }
+
+  /* .customeTextStyle::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  z-index: 2;
+  border-radius: 50%;
+  backdrop-filter: blur(5px);
+  width: 60px;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.021);
+} */
+
+  .dropDot {
+    backdrop-filter: blur(5px);
+  }
+  .loader {
+    width: 32px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: #b3b2b2 #c5c3c300;
+    animation: l1 1s infinite;
+  }
+  @keyframes l1 {
+    to {
+      transform: rotate(0.5turn);
+    }
+  }
+}
