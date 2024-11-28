@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 
 const Dots = () => {
-  const [dotCount, setDotCount] = useState([]);
-  useEffect(() => {
-    const dots = [];
-    for (let i = 0; i < 2000; i++) {
-      dots.push("");
-    }
-    setDotCount(dots);
-  }, []);
+  const [dotCount, setDotCount] = useState(["", ""]);
+  // useEffect(() => {
+  //   const dots = [];
+  //   for (let i = 0; i < 2000; i++) {
+  //     dots.push("");
+  //   }
+  //   setDotCount(dots);
+  // }, []);
   return (
     <div className="flex flex-wrap">
       {dotCount.map((dot, index) => (
