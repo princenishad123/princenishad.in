@@ -4,8 +4,18 @@ import { RiArrowRightSLine } from "react-icons/ri";
 import Project from "../Components/Project";
 import Subscribe from "../Components/Subscribe";
 import { useNavigate } from "react-router-dom";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 const Home = () => {
   const navigate = useNavigate();
+
+  useGSAP(() => {
+    gsap.from(".customeTextStyle", {
+      top: -15,
+      opacity: 0.0,
+      delay: 1,
+    });
+  });
   return (
     <div className="mx-64 max-xl:mx-32 max-lg:mx-14 max-md:mx-12 max-sm:mx-4">
       <section id="section1">

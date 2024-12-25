@@ -53,7 +53,7 @@ const About = () => {
             </div>
             <div className="w-full flex justify-center gap-4 my-4">
               <button className="py-1 px-3 rounded-full border border-slate-500">
-                Hinid
+                Hindi
               </button>
               <button className="py-1 px-3 rounded-full border border-slate-500">
                 English
