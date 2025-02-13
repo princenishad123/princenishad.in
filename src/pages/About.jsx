@@ -17,19 +17,34 @@ const About = () => {
       <aside className="w-64 max-xl:hidden h-[80vh] sticky top-20 left-0 ">
         <ul className="px-2">
           <a href="#profile">
-            <li className="text-xl my-1">Inroduction</li>
+            <li className="text-md my-3">Inroduction</li>
           </a>
           <a href="#work-experiance">
-            <li className="text-xl my-1">Experiance</li>
+            <li className="text-md my-3">Experiance</li>
           </a>
 
           <a href="#studies">
             {" "}
-            <li className="text-xl my-1">Studeis</li>
+            <li className="text-md my-3">Studeis</li>
           </a>
 
           <a href="#skills">
-            <li className="text-xl my-1">Technical Skills</li>
+            <li className="text-md my-3">Technical Skills</li>
+          </a>
+          <a href="#nodejs">
+            <li className="text-md my-3">Node.js</li>
+          </a>
+          <a href="#expressjs">
+            <li className="text-md my-3">Express.js</li>
+          </a>
+          <a href="#typescript">
+            <li className="text-md my-3">TypeScript.js</li>
+          </a>
+          <a href="#nextjs">
+            <li className="text-md my-3">Next.js</li>
+          </a>
+          <a href="#mongodb">
+            <li className="text-md my-3">Mongodb</li>
           </a>
         </ul>
       </aside>
@@ -43,7 +58,11 @@ const About = () => {
           {/* Profile sections */}
           <div className="w-44 max-md:w-auto">
             <div className="w-44 max-md:w-40 h-44 overflow-hidden max-md:h-40 rounded-full">
-              <img src={myImage} alt="" />
+              <img
+                src={"https://i.postimg.cc/j5H7qHRv/1715314418682.jpg"}
+                alt="prince"
+                className="object-fill"
+              />
             </div>
             <div>
               <span className="flex items-center justify-center my-4 gap-2 text-center">
@@ -67,7 +86,7 @@ const About = () => {
               Prince Nishad
             </h1>
             <h1 className="text-3xl my-4 max-sm:text-2xl max-sm:my-2">
-              Frontend Develoepr
+              Full Stack Develoepr
             </h1>
             <div className=" w-full flex-wrap flex gap-4 justify-center">
               <button className="py-1 hover:scale-[1.025] transition-all gap-2 flex items-center justify-center px-3 rounded-full border border-slate-500">
@@ -88,11 +107,12 @@ const About = () => {
 
         <div className="w-full my-4">
           <p>
-            Prince is an India-based Frontend developer with a passion for
-            building responsive, scalable web applications. Skilled in React,
-            his work focuses on creating seamless user experiences and efficient
-            solutions. Prince enjoys exploring new technologies and crafting
-            applications that merge creativity with functionality.
+            Passionate Full-Stack Developer skilled in React, Node.js, and
+            MongoDB. Experienced in building scalable web applications,
+            integrating payment gateways, and implementing real-time features
+            with Socket.IO. Currently developing Collabify, an AI-driven
+            influencer sponsorship marketplace. Open to exciting opportunities
+            in web development and software engineering.
           </p>
           <hr className="my-4" />
           {/* section 1  */}
@@ -218,6 +238,52 @@ const About = () => {
               </h2>
               <p className="text-slate-300">
                 Experienced with RTK Query for handle APIs
+              </p>
+            </div>
+            <div id="nodejs" className="my-4">
+              <h2 className="text-xl max-md:text-2xl font-medium py-2">
+                Node.js
+              </h2>
+              <p className="text-slate-300">
+                Proficient in Node.js for building scalable backend services,
+                REST APIs, authentication, and real-time applications using
+                Express and Socket.IO.
+              </p>
+            </div>
+            <div id="expressjs" className="my-4">
+              <h2 className="text-xl max-md:text-2xl font-medium py-2">
+                Express.js
+              </h2>
+              <p className="text-slate-300">
+                Skilled in Express.js for building fast, scalable REST APIs,
+                middleware integration, and authentication.
+              </p>
+            </div>
+            <div id="typescript" className="my-4">
+              <h2 className="text-xl max-md:text-2xl font-medium py-2">
+                TypeScript.js
+              </h2>
+              <p className="text-slate-300">
+                Familiar with TypeScript for writing scalable, type-safe
+                JavaScript applications.
+              </p>
+            </div>
+            <div id="nextjs" className="my-4">
+              <h2 className="text-xl max-md:text-2xl font-medium py-2">
+                Next.js
+              </h2>
+              <p className="text-slate-300">
+                Skilled in Next.js for building fast, SEO-friendly, and
+                server-side rendered React applications.
+              </p>
+            </div>
+            <div id="mongodb" className="my-4">
+              <h2 className="text-xl max-md:text-2xl font-medium py-2">
+                Mongodb
+              </h2>
+              <p className="text-slate-300">
+                Proficient in MongoDB for building scalable, NoSQL databases
+                with Mongoose and aggregation pipelines.
               </p>
             </div>
             <div className="my-4">

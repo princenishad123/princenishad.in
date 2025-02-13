@@ -48,6 +48,13 @@ const Work = () => {
           technology={["React.js", "Redux", "RTK", "Tailwind.css"]}
           photo={"https://i.postimg.cc/Xq6gChK6/project1.webp"}
         />
+        <Project
+          title={"Full stack E-commerce "}
+          technology={["React.js", "Redux", "RTK", "Tailwind.css", "Firebase"]}
+          photo={
+            "https://i.postimg.cc/5N7m9hPj/Screenshot-2025-02-13-195128.webp"
+          }
+        />
       </div>
     </div>
   );
